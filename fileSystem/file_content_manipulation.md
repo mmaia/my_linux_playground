@@ -1,6 +1,3 @@
-# Manipulate file content
-
-
 ## tr
 
 Remove characters of a file, using [octals](https://en.wikipedia.org/wiki/Octal), 
@@ -16,6 +13,12 @@ Replace an existing char from file, capital *M* by lowercase *m* in this case:
 ```bash
 echo "Marcos Maia" | tr M m
 ```
+
+## sed
+
+Remember `man sed`
+
+
 
 ## vim
 
