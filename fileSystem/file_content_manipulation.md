@@ -36,4 +36,10 @@ Number powered movement: `$number + $movement`, i.e - `5w`, `5j`, `8k`
 
 Insert text multiple times: `3iI am repeating` press `ESC`
 
- 
+Replace all ocurrences of ch05 to ch06 in a file: `:%s/ch05/ch06/g` press enter.
+
+Replace all ocurrences of ch05 to ch06 in a file but asks confirmation on each item before replacing
+it: `:%s/ch05/ch06/gc` press enter.
+
+Replace all occurrences of ch05 to ch06 in the same line: `s/ch05/ch06/g`
+
