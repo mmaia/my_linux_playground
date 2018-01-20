@@ -1,8 +1,20 @@
+# TOC
+
+[tr](#tr) 
+
+[sed](#sed)
+
+[vim](#vim)
+
+#
+
 ## tr
 
-Remove characters of a file, using [octals](https://en.wikipedia.org/wiki/Octal), 
-from [alvin alexander](https://alvinalexander.com/linux-unix/how-to-use-unix-tr-command-filter-remove-extended-ascii-characters-files) Keep only ASCII,
-very useful if you need to remove binaries from your file and keep only text: 
+Translate, squeeze, and/or delete characters from standard input, writing to standard output.
+
+The command below remove characters of a file, using [octals](https://en.wikipedia.org/wiki/Octal), 
+from [alvin alexander](https://alvinalexander.com/linux-unix/how-to-use-unix-tr-command-filter-remove-extended-ascii-characters-files) 
+Keep only ASCII, very useful if you need to remove binaries from your file and keep only text: 
 
 ```bash
 tr -cd '\11\12\40-\176' < $INPUT_FILE > $OUTPUT_FILE
