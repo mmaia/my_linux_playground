@@ -6,8 +6,7 @@
 
 [vim](#vim)
 
-#
-
+-----
 ## tr
 
 Translate, squeeze, and/or delete characters from standard input, writing to standard output.
@@ -25,12 +24,12 @@ Replace an existing char from file, capital *M* by lowercase *m* in this case:
 ```bash
 echo "Marcos Maia" | tr M m
 ```
-
+-----
 ## sed
 
 Remember `man sed`
 
-
+-----
 
 ## vim
 
