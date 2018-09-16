@@ -9,3 +9,13 @@ check linux version:
 `cat /proc/version`
 
 `cat /etc/issue`
+
+find process used by port:
+
+`netstat -anp |grep $PORT`
+
+`lsof -i tcp:$PORT`
+
+find and kill by port piping awk:
+
+`lsof -i tcp:$PORT | awk 'NR!=1 {print $2}' | xargs kill`
