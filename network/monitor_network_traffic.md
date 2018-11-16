@@ -1,5 +1,7 @@
 # Monitoring network traffic
 
+###  bmon || iptraf || iftop || nettop  - nice command line tools for network.
+
 ### tcpdump
 
 As usual 'man tcpdump' helps
