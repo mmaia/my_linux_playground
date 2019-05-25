@@ -45,3 +45,9 @@
 `iotop`
 
 `iostat`
+
+## find word in files
+
+To find a word in files searching recursively from root folder: 
+
+`grep -rl "$word_to_search_for" /path`
